@@ -1,0 +1,71 @@
+body, html{
+    width: 100%;
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    padding-left: 10px;
+}
+
+.navbar-ul{
+    display: grid;
+    grid-template-columns: 75px 140px 140px 140px 140px;
+    grid-template-rows: none;
+    grid-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    padding: 0px;
+    margin: 0px;
+    height: 80px;
+}
+
+.navitem{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navitem-logo{
+    grid-area: 1 / 1 / 1 / 1;
+}
+
+.navitem-logo-pic{
+    height: 100%;
+    width: 100%;
+}
+
+.navitem-home{
+    grid-area: 1 / 2 / 1 / 2;
+}
+
+.navitem-about{
+    grid-area: 1 / 3 / 1 / 3;
+}
+
+.navitem-artists{
+    grid-area: 1 / 4 / 1 / 4;
+}
+
+.navitem-contact{
+    grid-area: 1 / 5 / 1 / 5;
+}
+
+.homepage{
+
+}
+
+.about{
+}
+
+.contact{
+   
+}
+
+.nopage{
+    text-align: center;
+}
